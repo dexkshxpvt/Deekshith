@@ -1,0 +1,39 @@
+body {
+  font-family: Arial;
+  background: #ece5dd;
+}
+
+.chat-container {
+  width: 350px;
+  margin: 50px auto;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#messages {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+#messages div {
+  margin: 5px 0;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #25D366;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
